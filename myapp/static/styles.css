@@ -1,0 +1,44 @@
+body {
+  font-family: Ubuntu Sans, sans-serif;
+  font-weight: 400;
+}
+
+#start-calculation-button {
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  border-radius: 1rem;
+  background-color: #4CAF50;
+}
+
+#start-calculation-button:hover {
+  background-color: #A5D6A7;
+}
+
+#sign-up-button {
+  color: #FFFFFF;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  border-radius: 1rem;
+  border: 1px solid #FF9800;
+}
+
+#sign-up-button:hover {
+  border-color: #FFCC80;
+}
+
+#log-in-button {
+  color: #FFFFFF;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  border-radius: 1rem;
+}
+
+#log-in-button:hover {
+  color: #ffffffdc;
+}
+
+/* 
+Shades of Green (e.g., #C8E6C9, #A5D6A7, #81C784, #66BB6A, #4CAF50)
+Shades of Orange (e.g., #FFE0B2, #FFCC80, #FFB74D, #FFA726, #FF9800)
+*/
