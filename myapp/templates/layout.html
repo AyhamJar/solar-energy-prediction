@@ -17,12 +17,11 @@
 
 
 
-  <body>
+  <body class="bg-dark">
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg mb-5" style="background-color: rgba(0, 0, 0, 1);">
       <div class="container-fluid">
         <a class="navbar-brand text-white" style="margin-left: 10rem;" href="/">
-          <img src="../static/images/predictsol logo.png" alt="Logo" width="40" height="35" style="border-radius: 50%;" class="d-inline-block align-text-center">
           PredictSoL
         </a>
         <button style="border: none; margin-right: 5rem;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,12 +46,12 @@
 
 
     <!-- Body Content -->
-    <div>{% block content %}{% endblock %}</div>
+    <div class="container">{% block content %}{% endblock %}</div>
 
 
 
     <!-- Footer -->
-    <div class="container mt-5" id="footer">
+    <div class="container mt-5 mb-5 text-white" id="footer">
       <hr>
       {% block footer %}
       &copy; Copyright 2024 PredictSoL. All rights reserved.
